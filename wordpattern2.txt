@@ -1,0 +1,11 @@
+a=input().split(" ")
+  for j in range(int(a[0])):
+    for k in range(int(a[0])):
+      if((j+k)%2==0):
+        print(a[1],end="")
+      else:
+        if(a[1]=="w"):
+          print("b",end="")
+        else:
+          print("w",end="")
+    print()
